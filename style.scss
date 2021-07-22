@@ -91,7 +91,7 @@ body {
 }
 
 #header {
-    background-image: url(/img/9193579.png);
+    background-image: url("./img/9193579.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 756px;
@@ -101,7 +101,7 @@ body {
 }
 
 #header.bg2 {
-    background-image: url(/img/hp-oh-hi.png);
+    background-image: url("./img/hp-oh-hi.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 756px;
@@ -201,7 +201,7 @@ body {
 }
 
 .search-submit {
-    background: url(/img/icons8-search-18.png) no-repeat 50% 50%;
+    background: url("./img/icons8-search-18.png") no-repeat 50% 50%;
     width: 16px; 
     height: 16px; 
     border: none;
@@ -230,7 +230,7 @@ body {
 
   #myInputs {
     box-sizing: border-box;
-    background-image: url(/img/icons8-search-18.png);
+    background-image: url("./img/icons8-search-18.png");
     background-position: 300px 12px;
     background-repeat: no-repeat;
     font-size: 16px;
