@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainee_test</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main_content">
+        <div class="header">
+            <div class="header__title">
+                <p class="header__title-content">We deliver Worldwide</p>
+                <a href="#" class="header__location-content"><img class="location-img" src="/img/icons8-marker-16.png">Our stores</a>
+            </div>
+        </div>
+       <div id="header" class="wrapper">
+           <div class="main_container">
+                <div class="container__logo">
+                    <p class="logo__item">Aurora</p>
+                </div>
+                <div class="container__search">
+                    <form class="search-form">
+                        <div class="search-field">
+                            <input class="search-input" type="text" placeholder="What are you looking for?" name="search">
+
+                            <div class="dropdowns">
+                                <button onclick="myFunctions()" class="dropbtns"><img src="/img/icons8-search-18.png"></button>
+                                <div id="myDropdowns" class="dropdown-contents">
+                                    <input type="text" placeholder="What are you looking for?" id="myInputs" onkeyup="filterFunction()">
+                                </div>   
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+                <div class="container__form">
+                    <button class="form__btn" onclick="header.classList.toggle('bg2')">Sign in </button>
+                    <div class="vl"></div>
+                    <button class="form__btn">Register</button>
+                    <button class="form__btn-icon"><img class="img-item" src="/img/icons8-shopping-bag-50.png"></button>
+                </div>
+            </div>
+                <div class="topnav" id="myTopnav">
+                        
+                        <div class="dropdown">
+                            <button class="dropbtn">women
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#accessories">accessories</a>
+                                <a href="#clothing">clothing</a>
+                                <a href="#collections">collections</a>
+                                <a href="#collabs">collabs</a>
+                                <a href="#brands">brands</a>
+                            </div>
+                        </div>
+                        <a href="#what’s new">what’s new</a>
+                        <a href="#accessories">accessories</a>
+                        <a href="#kids">kids</a>
+                        <a href="#beauty">beauty</a>
+                        <a href="#outlet">outlet</a>
+                        <a href="#stories">stories</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div> 
+
+                <div class="heading">
+                    <p class="heading__content">Hello! Welcome to Aurora</p>
+                </div>
+        </div>
+           
+            <div class="arrival__container">
+                <p class="arrival__container-content">New arrivals. Exclusive previews. First access to sales. Sign up to<br> stay in the know.</p>
+            <div class="arrival__container-form">
+                <label class="form-content" for="email"></label>
+                <input class="form-input" type="text" placeholder="Your email address" name="email" id="email" required>
+                <button class="form-btn">register</button>
+            </div>
+        </div>
+
+        <footer>
+            <nav id='cssmenu'>
+              <div id="head-mobile"></div>
+              <div class="button"></div>
+              <ul id="oc_mm_core">
+                <li><a href="/study/">About Us</a>
+                  <ul>
+                    <li class="label">
+                      <h4>Who we are</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Our stores</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Customer Reviews</h4>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/admission/">Categories</a>
+                  <ul>
+                    <li class="label">
+                      <h4>Women fashion</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Accessories</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Kids</h4>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/studentservices/">Help</a>
+                  <ul>
+                    <li class="label">
+                      <h4>Customer service</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Size guide</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Contact us</h4>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/about/">Payments & Delivery</a>
+                  <ul>
+                    <li class="label">
+                      <h4>Purchase terms</h4>
+                    </li>
+                    <li class="label">
+                      <h4>Guarantee</h4>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/studentservices/">Social</a>
+                    <ul>
+                      <li class="label">
+                        <h4><img class="social_icon" src="/img/1916008_instagram_logo_media_social_icon (1).png"></h4>
+                      </li>
+                      <li class="label">
+                        <h4><img class="social_icon" src="/img/1915982_logo_media_social_twitter_icon.png"></h4>
+                      </li>
+                      <li class="label">
+                        <h4><img class="social_icon" src="/img/1915992_logo_media_snapchat_social_icon.png"></h4>
+                      </li>
+                      <li class="label">
+                        <h4><img class="social_icon" src="/img/1916021_facebook_logo_media_social_icon.png"></h4>
+                      </li>
+                      <li class="label">
+                        <h4><img class="social_icon" src="/img/1915966_logo_media_social_youtube_icon.png"></h4>
+                      </li>
+                    </ul>
+                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+        </footer>
+            </div>
+            <div class="bottom">
+                <p class="bottom__info-aurora">© Copyright, Aurora 2020. All Rights reserved.</p>
+            </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
